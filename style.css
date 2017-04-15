@@ -23,38 +23,48 @@ article, header, nav, aside, section, footer, h1, p {
 }
 
 header {
-	width: 960px;
+	
+	
 	
 }
 
 nav {
-	width: 960px;
+	
+	
 }
 
 section {
 	float: left;
-	width: 50%;
+	width: 475px;
 	height: 300px;
+	margin-right:0px;
+	margin-left: 20px;
 
 }
 
 
 aside {
 	float: right;
-	width: 50%;
+	width: 425px;
 	height: 300px;
+	margin-right: 20px;
+	margin-left: 0px;
+
 }
 
 article {
 	background-color: #777;
 	color: white;
 	height: 200px;
+	padding: 10px;
 }
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+    width: 960px;
+
 }
 
 p {
@@ -68,7 +78,6 @@ h1 {
 
 
 footer {
-	width: 960px;
-	clear: both;
+	
 
 }
